@@ -1,0 +1,115 @@
+
+(base) C:\Users\seren>cd C:\Users\seren\Documents\GitHub\yr1_python\QuaQua
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PioPio.py.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git add .
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PioPio.py.txt
+
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git push --set-upstream origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:serenaraus/QuaQua.git'
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PioPio.py.txt
+
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git commit -m "Aggiunto PioPio"
+[master (root-commit) f59273a] Aggiunto PioPio
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 PioPio.py.txt
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git push --set-upstream origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 217 bytes | 108.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:serenaraus/QuaQua.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+(base) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>conda activate SerenaRaus
+
+(SerenaRaus) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   PioPio.py.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+(SerenaRaus) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git add .
+
+(SerenaRaus) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   PioPio.py.txt
+
+
+(SerenaRaus) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git commit -m "Modificato Piopio"
+[master e783512] Modificato Piopio
+ 1 file changed, 1 insertion(+)
+
+(SerenaRaus) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>git push --set-upstream origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:serenaraus/QuaQua.git
+   f59273a..e783512  master -> master
+branch 'master' set up to track 'origin/master'.
+
+(SerenaRaus) C:\Users\seren\Documents\GitHub\yr1_python\QuaQua>
