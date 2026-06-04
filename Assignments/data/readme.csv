@@ -1,0 +1,13 @@
+Cognitive neuroscience plotting dataset,Unnamed: 1
+,
+Purpose,Synthetic teaching dataset for plotting with pandas/matplotlib/seaborn.
+Sheets included,"subjects, trials, subject_summary, erp_timecourse, roi_activation"
+Suggested plots,Histogram of rt_ms; boxplot of RT by condition/group; scatter age vs mean_rt_ms; line plot ERP waveform by condition; barplot/heatmap of ROI beta weights.
+Caution,This dataset is simulated for teaching. It is not real participant data.
+,
+Variable notes,
+subjects,One row per participant with demographics and questionnaire variables.
+trials,"One row per behavioral trial with RT, accuracy, pupil, and EEG-style summary measures."
+subject_summary,Participant-level averages useful for quick scatterplots and grouped comparisons.
+erp_timecourse,Long-format ERP waveform table across time points for each subject and condition.
+roi_activation,Long-format ROI beta weights for simple neuroimaging-style plots.
